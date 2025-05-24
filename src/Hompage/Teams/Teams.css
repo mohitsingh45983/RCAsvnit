@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300i,400,400i,600,700|Poppins:200,200i,300,300i,400,500,500i,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300i,400,400i,600,700|Poppins:200,200i,300,300i,400,500,500i,600,700,800,900&display=swap");
+
+
+.pet_care_area {
+    padding-top: 73px;
+    padding-bottom: 24px;
+}
+
+@media (max-width: 767px) {
+
+    /* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_pet_care.scss */
+    .pet_care_area {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+/* line 10, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_pet_care.scss */
+.pet_care_area .pet_thumb img {
+    width: 100%;
+}
+
+/* line 19, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_pet_care.scss */
+.pet_care_area .pet_info .section_title p {
+    color: #66666f;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 54px;
+    margin-top: 30px;
+}
+
+.section_title img {
+    float: right;
+}
+
+.section_title h3 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #191d34;
+    font-family: "Poppins", sans-serif;
+}
+
+/* line 8, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+.section_title h3 span {
+    font-weight: 300;
+}
+
+
+
+@media (max-width: 767px) {
+
+    /* line 2, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+    .section_title h3 {
+        font-size: 27px;
+        line-height: 33px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* line 2, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+    .section_title h3 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    /* line 2, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+    .section_title h3 {
+        font-size: 33px;
+        line-height: 40px;
+    }
+}
+
+/* line 24, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+.section_title p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #909092;
+    font-weight: 400;
+}
+
+
+.boxed-btn3 {
+   background-color: #e88e2d;
+}
+
+.boxed-btn3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    padding: 17px 55px;
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background-position: 100% 0;
+    background-position: 0 0;
+
+
+}
+
+.boxed-btn3:hover {
+    background-size: 200% 200%;
+    color: #fff;
+}
+
+/* line 45, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_btn.scss */
+.boxed-btn3:focus {
+    outline: none;
+}

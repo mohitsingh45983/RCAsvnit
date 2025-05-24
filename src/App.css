@@ -1,0 +1,14 @@
+::selection{
+    color: white;
+    background-color: #ff3500;
+}
+
+.khamma-button{
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    border: 0px;
+    background-color: #e9851a;
+    padding: 0.5rem 0.5rem;
+    cursor: pointer;
+  }
+  

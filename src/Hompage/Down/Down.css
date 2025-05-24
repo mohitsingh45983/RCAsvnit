@@ -1,0 +1,70 @@
+.contact_anipat {
+    background-position: center center;
+    background-size: cover;
+    padding-top: 170px;
+    padding-bottom: 160px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  
+  @media (max-width: 767px) {
+  
+    /* line 5, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_anipat.scss */
+    .contact_anipat {
+      background-size: cover;
+      padding: 110px 0;
+    }
+  }
+  
+  /* line 18, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_anipat.scss */
+  .contact_anipat .contact_text .section_title h3 {
+    color: #fff;
+  }
+  
+  /* line 21, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_anipat.scss */
+  .contact_anipat .contact_text .section_title p {
+    font-size: 25px;
+    color: #fff;
+    line-height: 40px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+  }
+  
+  @media (max-width: 767px) {
+  
+    /* line 30, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_anipat.scss */
+    .contact_anipat .contact_text .contact_btn {
+      display: block !important;
+    }
+  }
+  
+  /* line 34, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_anipat.scss */
+  .contact_anipat .contact_text .contact_btn p {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    margin-left: 20px;
+  }
+  
+  @media (max-width: 767px) {
+  
+    /* line 34, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_anipat.scss */
+    .contact_anipat .contact_text .contact_btn p {
+      margin-left: 0;
+      margin-top: 30px;
+    }
+  }
+  
+  /* line 45, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_anipat.scss */
+  .contact_anipat .contact_text .contact_btn p a {
+    font-weight: 600;
+    color: #fff;
+    margin-left: 10px;
+  }
+
+  .anipat_bg_1 {
+    background-image: url(../../../public/img/banner/contact_bg2.png);
+  }
+  

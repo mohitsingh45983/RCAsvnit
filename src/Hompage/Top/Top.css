@@ -1,0 +1,250 @@
+.slider_area {
+    position: relative;
+    z-index: 3;
+}
+
+.slider_bg_1 {
+    background-image: url(../../../public/img/banner/new-banner2.png);
+}
+
+/* line 7, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+.slider_area .single_slider {
+    height: 725px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+
+    /* line 7, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+    .slider_area .single_slider {
+        height: 600px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* line 7, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+    .slider_area .single_slider {
+        height: 600px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    /* line 7, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+    .slider_area .single_slider {
+        height: 550px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+    /* line 7, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+    .slider_area .single_slider {
+        height: 600px;
+    }
+}
+
+@media (min-width: 1501px) and (max-width: 1700px) {
+
+    /* line 7, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+    .slider_area .single_slider {
+        height: 600px;
+    }
+}
+
+@media (min-width: 1700px) {
+    .slider_area .single_slider {
+        height: 600px;
+    }
+}
+
+
+
+/* line 27, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+.slider_area .single_slider .slider_text {
+    position: relative;
+    z-index: 6;
+}
+
+/* line 30, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+.slider_area .single_slider .slider_text h3 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 75px;
+    font-weight: 200;
+    margin-bottom: 4px;
+    line-height: 85px;
+}
+
+/* line 37, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+.slider_area .single_slider .slider_text h3 span {
+    font-weight: 800;
+}
+
+@media (max-width: 767px) {
+
+    /* line 30, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+    .slider_area .single_slider .slider_text h3 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* line 30, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+    .slider_area .single_slider .slider_text h3 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    /* line 30, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+    .slider_area .single_slider .slider_text h3 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+}
+
+/* line 53, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+.slider_area .single_slider .slider_text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 32px;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-top: 12px;
+}
+
+@media (max-width: 767px) {
+
+    /* line 63, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+    .slider_area .single_slider .slider_text p br {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* line 63, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+    .slider_area .single_slider .slider_text p br {
+        display: none;
+    }
+}
+
+/* line 74, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+.slider_area .dog_thumb {
+    position: absolute;
+    bottom: 30;
+    right: auto;
+
+    z-index: 1;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    /* line 74, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+    .slider_area .dog_thumb {
+        right: 0;
+        text-align: right;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+    /* line 74, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+    .slider_area .dog_thumb {
+        right: 10%;
+        text-align: right;
+    }
+}
+
+@media (min-width: 1501px) and (max-width: 1700px) {
+
+    /* line 74, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+    .slider_area .dog_thumb {
+        right: 10%;
+        text-align: right;
+    }
+}
+
+@media (min-width:1700px) {
+    .slider_area .dog_thumb {
+        right: 10%;
+        text-align: right;
+    }
+}
+
+/* line 92, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+.slider_area .dog_thumb img {
+    max-width: 100%;
+}
+
+@media (max-width: 767px) {
+
+    /* line 92, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+    .slider_area .dog_thumb img {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    /* line 92, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+    .slider_area .dog_thumb img {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+    /* line 92, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+    .slider_area .dog_thumb img {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 1501px) and (max-width: 1700px) {
+
+    /* line 92, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+    .slider_area .dog_thumb img {
+        max-width: 80%;
+    }
+}
+
+
+.boxed-btn4 {
+    background: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    color: #e88e2d;
+    padding: 17px 50px;
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.boxed-btn4:hover {
+    background: #e88e2d;
+    color: #fff;
+    border: 1px solid #e88e2d;
+}
+
+/* line 64, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_btn.scss */
+.boxed-btn4:focus {
+    outline: none;
+}

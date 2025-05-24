@@ -1,0 +1,29 @@
+.jatin{
+  background-color: #f8f8f8;
+}
+
+a.text-secondary {
+  text-decoration: none;
+}
+
+.fa-linkedin-in:hover,
+.fa-Facebook-F:hover,
+.fa-Instagram:hover,
+.fa-faYoutube:hover {
+  color: rgb(242, 129, 33);
+}
+
+.links-1:hover {
+  color: rgb(242, 129, 33);
+}
+
+
+a{
+  text-decoration: none;
+  color: gray;
+}
+
+.list-unstyled a:hover{
+  color: rgb(242, 129, 33) !important;
+  
+}

@@ -1,0 +1,57 @@
+/* line 10, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_bradcam.scss */
+.bradcam_area {
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    /* margin-top: 6rem; */
+  }
+  
+  @media (max-width: 767px) {
+  
+    /* line 10, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_bradcam.scss */
+    .bradcam_area {
+      padding: 100px 0;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+  
+    /* line 10, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_bradcam.scss */
+    .bradcam_area {
+      padding: 100px 0;
+    }
+  }
+  
+  /* line 22, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_bradcam.scss */
+  .bradcam_area h3 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 0;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+  }
+  
+  @media (max-width: 767px) {
+  
+    /* line 22, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_bradcam.scss */
+    .bradcam_area h3 {
+      font-size: 30px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+  
+    /* line 22, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_bradcam.scss */
+    .bradcam_area h3 {
+      font-size: 40px;
+    }
+  }
+
+  .breadcam_bg {
+
+    background-image: url(../../public/img/banner/banner-edit.png);
+    
+  }
