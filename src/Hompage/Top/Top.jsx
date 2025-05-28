@@ -18,17 +18,6 @@ function Top() {
                                         <p>Welcome to RCA! Join us to kickstart an amazing journey and to be part of our vibrant community!</p><br/>
                                             <div className="contact_btn align-items-center justify-content-center">
                                                 <Link to="/About" className="boxed-btn4 shadow " style={{marginTop: '10px'}}>About</Link> 
-                                                &nbsp;&nbsp;&nbsp;&nbsp;
-                                               <a
-                                                    href="https://forms.gle/ryspazh37RcFFRQx8" 
-                                                    target="_blank" 
-                                                    rel="noopener noreferrer" 
-                                                    className="boxed-btn4 shadow" 
-                                                    style={{ marginTop: '10px' }}
-                                                    >
-                                                    Apply for Internship
-                                                    </a>
-
                                             </div>
                                         </div>
                                 </div>

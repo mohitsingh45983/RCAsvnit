@@ -35,6 +35,11 @@ function Footer() {
               </Link>
             </li>
             <li className="mb-3">
+              <Link to="/Career" className="text-hover-red text-secondary" href="#top" onClick={scrollToTop}>
+                Career
+              </Link>
+            </li>
+            <li className="mb-3">
               <Link to="/Contact" className="text-secondary links-1" href="#top" onClick={scrollToTop}>
                 Contact Us
               </Link>

@@ -51,6 +51,11 @@ function Navbar() {
                             Event
                         </li>
                     </Link>
+                    <Link to="/Career" onClick={scrollToTop}>
+                        <li>
+                            Career
+                        </li>
+                    </Link>
                     <Link to="/Team" onClick={scrollToTop}>
                         <li>
                             Team

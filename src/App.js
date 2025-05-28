@@ -7,6 +7,7 @@ import About from './About/about.jsx'
 import Footer from './footer/footer'
 import Event from './Event/Event.jsx'
 import Notfound from './Notfound/Notfound.jsx';
+import Career from './Career/career.jsx';
 import {
   // BrowserRouter,
   Routes,
@@ -19,7 +20,6 @@ function App() {
   return (
     <>
       <Navbar />
-       
       <Routes>
 
         <Route path="/" element={<Homepage />} />
@@ -28,6 +28,7 @@ function App() {
         <Route path="/Team" element={<Team />} />
         <Route path="/Alumni" element={<Almuni />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/Career" element={<Career />} />
         <Route path="*" element={<Notfound />} />
 
       </Routes>

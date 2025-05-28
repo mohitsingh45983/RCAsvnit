@@ -1,0 +1,36 @@
+.career-title {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.career-subtext {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.career-btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Optional: Subtle hover lift for card */
+.address-right:hover {
+  transform: scale(1.01);
+  transition: transform 0.3s ease;
+}
+
+
+.career-section {
+  margin-bottom: 80px; /* space before footer */
+}
+
+@media (max-width: 768px) {
+  .career-section {
+    margin-bottom: 50px;
+  }
+}
