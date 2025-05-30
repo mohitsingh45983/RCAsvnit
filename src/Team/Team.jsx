@@ -1,22 +1,20 @@
 import React from 'react'
-import Governer from './Governer/Governer.jsx'
+import Chairperson from './Chairperson/Chairperson.jsx'
 import Advisors from './Advisors/Advisors.jsx'
-import SteeringMember from './SteeringMember/SteeringMember.jsx'
-import Heads from './Heads/Head.jsx'
-import Subhead from './SubHeads/Subhead.jsx'
+import Core from './core/core.jsx'
 import Brad from '../Brad/Brad.jsx'
 import Profs from './Profs/profs.jsx'
+import CommitteeDisplay from './committee/committee.jsx';
 function Team() {
   document.title = "Team | RCA";
   return (
     <>
       <Brad head={"Our Team"} />
       <Profs />
-      <Governer />
+      <Chairperson />
+      <Core/>
       <Advisors />
-      <SteeringMember />
-      <Heads />
-      <Subhead />
+      <CommitteeDisplay />
     </>
   )
 }

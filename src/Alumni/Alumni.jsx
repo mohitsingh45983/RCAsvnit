@@ -76,6 +76,7 @@ function Advisors() {
                             ImageUrl={item.ImageUrl}
                             instagramLink={item.instagramLink}
                             linkedinLink={item.linkedinLink}
+                            email={item.email} 
                         />
                     ))
                 ) : (

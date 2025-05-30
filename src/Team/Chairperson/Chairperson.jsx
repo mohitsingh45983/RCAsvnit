@@ -1,7 +1,7 @@
 import React from 'react'
-import './Subhead.css'
+import './Chairperson.css'
 import Card from '../Card/Card'
-import data from './Subhead'
+import data from './Chairperson'
 function Advisors() {
     return (
         <>
@@ -9,14 +9,14 @@ function Advisors() {
             <hr style={{color: 'red'}}/>
                 <div class="row justify-content-center">
                     <div class="col-lg-3 col-md-6 text-center">
-                        <h4>Sub-Heads</h4>
+                        <h4>Core Committee</h4>
                     </div>
                 </div>
             </div>
-            <div className="steering_container">
 
-            {data.map((data, index) => (
-                    <Card key={index} name={data.name} position={data.position} ImageUrl={data.ImageUrl} facebookLink={data.facebookLink} linkedinLink={data.linkedinLink} />
+            <div className="Chairperson_container">
+                {data.map((data, index) => (
+                    <Card key={index} name={data.name} position={data.position} ImageUrl={data.ImageUrl}  instagramLink={data.instagramLink} linkedinLink={data.linkedinLink} email={data.email} />
                 ))}
 
             </div>
@@ -24,4 +24,4 @@ function Advisors() {
     )
 }
 
-export default Advisors
+export default Advisors;

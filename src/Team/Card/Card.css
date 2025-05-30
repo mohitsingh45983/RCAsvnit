@@ -90,3 +90,14 @@
   transform: scale(1.2) rotate(8deg);
   box-shadow: 0 4px 10px rgba(0, 139, 139, 0.3);
 }
+
+.social li a {
+    display: inline-block;
+    color: #333;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.social li a:hover {
+    color: #e88e2d;
+}
