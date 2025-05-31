@@ -40,6 +40,11 @@ function Footer() {
               </Link>
             </li>
             <li className="mb-3">
+              <Link to="/guest-lectures" className="text-hover-red text-secondary" href="#top" onClick={scrollToTop}>
+                Guest Lectures
+              </Link>
+            </li>
+            <li className="mb-3">
               <Link to="/Contact" className="text-secondary links-1" href="#top" onClick={scrollToTop}>
                 Contact Us
               </Link>

@@ -9,7 +9,7 @@ function Advisors() {
                 <hr style={{color: 'red'}}/>
                 <div class="row justify-content-center">
                     <div class="col-lg-3 col-md-6 text-center">
-                        <h4>Advisor</h4>
+                        <h4>Advisors</h4>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,112 @@
+.Alumni_container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+
+.year-dropdown-container {
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.year-dropdown-container label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.year-dropdown {
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.filters-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 1.5rem 0;
+}
+
+.year-dropdown-container label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.year-dropdown {
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+.show-more-container {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.show-more-btn {
+    background-color: #e88e2d;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.show-more-btn:hover {
+    background-color: #e88e2d;
+}
+
+.guest-detail-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+.guest-img {
+  width: 200px;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.social-links a {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #e88e2d;
+}
+
+.guest-card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}

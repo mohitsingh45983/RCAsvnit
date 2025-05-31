@@ -61,6 +61,11 @@ function Navbar() {
                             Team
                         </li>
                     </Link>
+                    <Link to="/guest-lectures" onClick={scrollToTop}>
+                        <li>
+                            Guest Lectures
+                        </li>
+                    </Link>
 
                     <Link to="/Alumni" onClick={scrollToTop}>
                         <li>

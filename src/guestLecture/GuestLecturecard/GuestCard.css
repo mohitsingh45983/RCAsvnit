@@ -1,0 +1,63 @@
+.guest-lecture-card {
+  width: 100%;
+  max-width: 380px;
+  background-color: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  margin: 1.2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.guest-lecture-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.guest-lecture-content {
+  position: relative; /* 🟡 Needed for absolute positioning inside */
+  padding: 1.2rem;
+  padding-bottom: 3.5rem; /* 🟡 Leave space for button at bottom */
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  flex-grow: 1;
+}
+
+.guest-lecture-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #111;
+}
+
+.guest-lecture-subtitle {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.guest-lecture-description {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.4;
+}
+
+.guest-lecture-button {
+  position: absolute; /* ✅ Position absolutely */
+  bottom: 1rem;
+  left: 1.2rem;
+  background-color: #e88e2d;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.guest-lecture-button:hover {
+  background-color: #d57817;
+}

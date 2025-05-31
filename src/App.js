@@ -8,6 +8,8 @@ import Footer from './footer/footer'
 import Event from './Event/Event.jsx'
 import Notfound from './Notfound/Notfound.jsx';
 import Career from './Career/career.jsx';
+import GuestLectures from './guestLecture/GuestLectures.jsx'
+import GuestDetail from './guestLecture/GuestDetail.jsx';
 import {
   // BrowserRouter,
   Routes,
@@ -29,6 +31,8 @@ function App() {
         <Route path="/Alumni" element={<Almuni />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Career" element={<Career />} />
+        <Route path="/guest-lectures" element={<GuestLectures />} />
+        <Route path="/guest-lectures/:id" element={<GuestDetail />} />
         <Route path="*" element={<Notfound />} />
 
       </Routes>
